@@ -6,4 +6,4 @@ for more info see [This lesson](https://www.theodinproject.com/lessons/node-path
 
 Live Demo [Image Slider](https://wissman77.github.io/image-slider/)
 
-All images from [random Unsplash.com]('https://source.unsplash.com/random/800x400')
+All images from [random Unsplash.com](https://source.unsplash.com/random/800x400)
