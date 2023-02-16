@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Slider</h1>
+    <div class="container">
+      <div class="slides">
+        <div class="prev"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
+        <div class="slide active">
+          <img src="./images/1.jpeg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/2.jpeg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/3.jpeg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/4.jpeg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/5.jpeg" alt="" />
+        </div>
+        <div class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+      </div>
+    </div>
+    <div class="dots">
+      <div class="dot active-dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
